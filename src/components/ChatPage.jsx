@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import Sidebar from './Sidebar';
 import ChatWindow from './ChatWindow';
 
-const socket = io('http://127.0.0.1:4000');
+const socket = io('https://chat-backend-e7kx.onrender.com');
 
 const getPrivateConversationId = (user1, user2) => {
   return [user1, user2].sort().join('-');
