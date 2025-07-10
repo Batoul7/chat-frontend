@@ -2,7 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Batoul7.github.io/chat-backend/",
+  "homepage": "https://Batoul7.github.io/chat-frontend/",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
